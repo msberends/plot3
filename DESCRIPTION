@@ -1,0 +1,23 @@
+Package: plot3
+Type: Package
+Title: Creating 'ggplot2' Plots With Less Code
+Version: 0.1.0
+Depends: 
+    ggplot2,
+    R (>= 3.2)
+Imports:
+    dplyr,
+    forcats,
+    rlang
+Authors@R: person(role = c("aut", "cre"), 
+                  family = "Berends", given = c("Matthijs", "S."),
+                  email = "m.s.berends@umcg.nl",
+                  comment = c(ORCID = "0000-0001-7620-1800"))
+Description: A convenient wrapper around the ggplot2 package,
+    that aims to decrease the amount of code and functions
+    to write for generating plots.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
