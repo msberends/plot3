@@ -18,11 +18,13 @@ knitr::opts_chunk$set(
 # plot3
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/msberends/plot3/workflows/R-CMD-check/badge.svg)](https://github.com/msberends/plot3/actions)
 <!-- badges: end -->
 
 The goal of plot3 is to generating `ggplot2` plots with less code. While `ggplot2` focusses on adding **functions** to create advanced plots (leading to a lot of repetitive code), `plot3` focusses on only adding `arguments` to create advanced plots. 
 
 In short, `plot3` provides:
+
   * A convenient wrapper around many `ggplot2` functions, losing the need to write functions such as `ggplot()`, `geom_col()`, `facet_wrap()`, `labs()`, etc. over and over again
   * Writing as few lines of codes as possible
   * A drop-in replacement for most base R `plot()` calls
